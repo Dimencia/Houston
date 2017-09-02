@@ -26,7 +26,9 @@ Most of my ideas for multiplayer interaction are not yet implemented, and neithe
   * Resizing the game window causes the reticle to become offset from the center
   * Some textures or materials do not export properly when building with Unity
   * Unity WebPlayer sometimes offsets the game content slightly from the frame
-
+  * Render issues at high altitudes due to precision problems
+  
 ### Play Live Demo
 ##### Be warned this is very WIP as mentioned on the site
+###### This isn't meant to be played in a WebPlayer, but it's not finished enough to expect anyone to download and run it
 [http://Dimencia.com](http://Dimencia.com/Houston)
