@@ -25,13 +25,13 @@ Material:
     - _Darkmatter: 0
     - _Distfading: 50
     - _Formuparam: 420
-    - _Iterations: 2.00648
+    - _Iterations: 20
     - _Saturation: 62
     - _StepSize: 300
     - _Tile: 850
-    - _TintAmount: 79.964
+    - _TintAmount: 0
     - _Tintamount: 0
-    - _Volsteps: 1.00612
+    - _Volsteps: 18
     m_Colors:
     - _Center: {r: 1, g: 0.3, b: 0.5, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

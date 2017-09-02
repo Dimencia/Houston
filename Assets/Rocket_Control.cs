@@ -79,7 +79,6 @@ public class Rocket_Control : MonoBehaviour {
         dragCoefficient = 0.515f; // Saturn V coefficient is 0.515 per second
         minimumMass = 118000; // Payload weight of Saturn V, max.  Thrust time 500 seconds, so fuel drain should be about ((mass-minimumMass)/500)*.9
         fuelDrainRate = ((rb.mass - minimumMass) / 500)*.8f; // Includes some error room
-        // So I've done .09 to split it 10 times so I can update fuel 10 times/second
 
         startingMass = rb.mass-minimumMass;
         lastVelocity = 0;
@@ -89,7 +88,7 @@ public class Rocket_Control : MonoBehaviour {
 
         Cursor.visible = false;
 
-        // We're initializing basically everything here instead of on some other object, so.  Screw you.
+        // We're initializing basically everything here instead of on some other object, so.
 
         // Need: list containing numbers 1-8, randomize this list, make it accessible to randombuttons
         for (int i = 0; i < randomizedButtonList.Count; i++)
